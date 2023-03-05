@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <div className=''>
             <Navbar />
+            Home
             <div>
                 <Routes>
                     <Route path="/home" element={<Home />} />

@@ -7,8 +7,6 @@ import NavbarLinks from './NavbarLinks';
 const Navbar = () => {
 
   const [smScreenMenuOpen, setSmScreenMenuOpen] = useState(true);
-  console.log(smScreenMenuOpen)
-  console.log(setSmScreenMenuOpen)
 
   return (
     <>
@@ -16,14 +14,14 @@ const Navbar = () => {
         <NavbarLinks />
       </div>
 
-      <div className=''>
+      <div className='absolute md:hidden block top-6 right-3 cursor-pointer bg-black'>
         {smScreenMenuOpen ?
           (<RiCloseLine className="w-6 h-6 text-white mr-2" onClick={() => setSmScreenMenuOpen(false)} />)
           :
           <HiOutlineMenu className="w-6 h-6 text-white mr-2" onClick={() => setSmScreenMenuOpen(true)} />}
       </div>
 
-      <div className={`absolute top-0 h-screen w-2/3 bg-gradient-to-tl from white/10 to-[#483d8b] backdrop-blur-lg z-10 p-6 md:hidden smooth-transition ${smScreenMenuOpen ? 'left-0' : '-left-full'}`}>
+      <div className={`bg-red-500 h-screen absolute w-2/3 z-10 p-4 md:hidden transition-all ease-in-out duration-200 ${smScreenMenuOpen ? 'left-0' : '-left-full'}`}>
         <NavbarLinks handleClick={() => setSmScreenMenuOpen(false)} />
       </div>
     </>

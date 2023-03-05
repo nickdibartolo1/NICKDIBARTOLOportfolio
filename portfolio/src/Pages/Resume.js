@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../Components/Navbar';
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div>
+      <Navbar />
+      Resume
+    </div>
   )
 }
 

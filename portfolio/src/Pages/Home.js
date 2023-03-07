@@ -6,6 +6,7 @@ import Resume from './Resume';
 import Navbar from '../Components/Navbar';
 import HomeBG from '../assets/media/pexels-fauxels-3183198.jpg'
 import HomeHeadshot from '../assets/media/headshot.jpg'
+import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
@@ -27,15 +28,16 @@ const Home = () => {
                 />
                 <img
                     src={HomeHeadshot}
-                    className='absolute flex flex-col justify-center items-center z-10 h-[350px] w-[325px] rounded-full object-none object-[%_-4px] top-[180px]'
+                    className='absolute flex flex-col justify-center items-center z-1 h-[350px] w-[325px] rounded-full object-none object-[%_-4px] top-[180px]'
                     alt="headshot"
                 />
             </div>
-            <div className='absolute w-full flex flex-col items-center top-[40rem] z-10'>
-                    <h2 className='text-white text-3xl'>Hi! My Name is</h2>
-                    <h1 className='text-white text-6xl'>Nick DiBartolo</h1>
-                    <h2 className='text-white text-3xl'>Front-End Developer</h2>
-                </div>
+            <div className='absolute w-full flex flex-col items-center top-[40rem] z-1'>
+                <h2 className='text-white text-3xl'>Hi! My Name is</h2>
+                <h1 className='text-white text-6xl'>Nick DiBartolo</h1>
+                <h2 className='text-white text-3xl'>Front-End Developer</h2>
+            </div>
+            <Footer/>
         </div>
     )
 }

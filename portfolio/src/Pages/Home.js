@@ -27,15 +27,15 @@ const Home = () => {
                 />
                 <img
                     src={HomeHeadshot}
-                    className='absolute flex flex-col justify-center items-center h-[300px] z-10'
+                    className='absolute flex flex-col justify-center items-center z-10 h-[350px] w-[325px] rounded-full object-none object-[%_-4px] top-[180px]'
                     alt="headshot"
                 />
-                <div className='z-10'>
-                    <h2>Hi! My Name is</h2>
-                    <h1>Nick DiBartolo</h1>
-                    <h2>Front-End Developer</h2>
-                </div>
             </div>
+            <div className='absolute w-full flex flex-col items-center top-[40rem] z-10'>
+                    <h2 className='text-white text-3xl'>Hi! My Name is</h2>
+                    <h1 className='text-white text-6xl'>Nick DiBartolo</h1>
+                    <h2 className='text-white text-3xl'>Front-End Developer</h2>
+                </div>
         </div>
     )
 }

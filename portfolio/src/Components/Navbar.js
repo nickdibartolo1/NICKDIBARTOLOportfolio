@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='md:flex hidden flex-col w-full py-8 px-4 bg-[#0e0725]'>
+      <div className='md:flex hidden flex-col w-full py-6 px-4 bg-[#414b58]'>
         <NavbarLinks />
       </div>
 

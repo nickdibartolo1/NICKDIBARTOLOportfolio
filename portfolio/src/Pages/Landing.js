@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import landingVideo from '../assets/Pexels-Videos-2278095.mp4'
+import landingVideo from '../assets/media/Pexels-Videos-2278095.mp4'
 
 const Landing = () => {
 

@@ -9,7 +9,7 @@ const NavLinks = ({ handleClick }) => {
                 <NavLink
                     key={item.name}
                     to={item.to}
-                    className="text-blue-500 mr-5 float-right"
+                    className="text-white mr-7 float-right uppercase hover:text-[#7f90a0]"
                     onClick={() => handleClick && handleClick()}
                 >
                     {item.name}

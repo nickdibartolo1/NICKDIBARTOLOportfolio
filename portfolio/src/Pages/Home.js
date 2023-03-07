@@ -19,19 +19,23 @@ const Home = () => {
                     <Route path="/resume" element={<Resume />} />
                 </Routes>
             </div>
-            <div className='flex justify-start items-center flex-col h-screen z-10'>
-                <img className="w-full h-full object-cover" src={HomeBG} alt="background"></img>
-            </div>
-            <div>
-                <img src={HomeHeadshot}
+            <div className='relative flex justify-start items-center flex-col h-screen'>
+                <img
+                    src={HomeBG}
+                    className="absolute w-full h-full object-cover z-0"
+                    alt="background"
+                />
+                <img
+                    src={HomeHeadshot}
+                    className='absolute flex flex-col justify-center items-center h-[300px] z-10'
                     alt="headshot"
-                    className='h-[300px]'
-                ></img>
-                <h2>Hi! My Name is</h2>
-                <h1>Nick DiBartolo</h1>
-                <h2>Front-End Developer</h2>
+                />
+                <div className='z-10'>
+                    <h2>Hi! My Name is</h2>
+                    <h1>Nick DiBartolo</h1>
+                    <h2>Front-End Developer</h2>
+                </div>
             </div>
-
         </div>
     )
 }

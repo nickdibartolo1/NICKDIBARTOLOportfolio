@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavbarLinks />
       </div>
 
-      <div className='absolute md:hidden block top-6 right-3 cursor-pointer bg-black'>
+      <div className='absolute md:hidden block top-6 right-3 cursor-pointer bg-black z-10'>
         {smScreenMenuOpen ?
           (<RiCloseLine className="w-6 h-6 text-white mr-2" onClick={() => setSmScreenMenuOpen(false)} />)
           :

@@ -1,5 +1,6 @@
 import React from 'react';
 import { links } from '../assets/constants';
+import { SocialMedia } from '../assets/constants';
 import { NavLink } from 'react-router-dom';
 
 const NavLinks = ({ handleClick }) => {
@@ -15,6 +16,7 @@ const NavLinks = ({ handleClick }) => {
                     {item.name}
                 </NavLink>
             ))}
+            <SocialMedia className="w-6 h-6 mr-2" />
 
         </div>
     )

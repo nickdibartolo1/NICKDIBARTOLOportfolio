@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarLinks from './NavbarLinks';
+
 
 const Footer = () => {
   return (

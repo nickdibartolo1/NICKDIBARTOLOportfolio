@@ -9,7 +9,7 @@ export const links = [
 
 export const SocialMedia = () => {
     return (
-        <div className='flex mx-5'>
+        <div className='flex mt-2'>
             <a href='https://github.com/nickdibartolo1/'>
                 <FaGithub
                     className='mx-3 cursor-pointer'

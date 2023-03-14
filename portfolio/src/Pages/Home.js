@@ -30,7 +30,7 @@ const Home = () => {
                 <div className='bg-blackOverlay absolute w-full h-full object-cover z-0' />
                 <img
                     src={HomeHeadshot}
-                    className='absolute flex flex-col justify-center items-center z-1 h-[350px] w-[325px] rounded-full object-none object-[%_-4px] top-[50px]'
+                    className='absolute flex flex-col justify-center items-center z-1 h-[225px] w-[225px] object-cover rounded-full top-[180px] lg:w-[350px] lg:h-[350px] lg:top-[50px]'
                     alt="headshot"
                 />
             </div>
@@ -40,6 +40,15 @@ const Home = () => {
                 <h1 className='xl:text-6xl text-4xl '>Nick DiBartolo</h1>
                 <h2 className='xl:text-3xl text-2xl'>Front-End Developer</h2>
                 <SocialMedia />
+            </div>
+
+            <div className='flex-1'>
+                <div className='flex justify-center items-center'>
+                    <img className='w-[150px] h-[150px] object-cover rounded-full' src={HomeHeadshot} alt='jhg'>
+
+                    </img>
+                </div>
+
             </div>
 
             <Footer />

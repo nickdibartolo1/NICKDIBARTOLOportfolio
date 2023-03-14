@@ -41,16 +41,6 @@ const Home = () => {
                 <h2 className='xl:text-3xl text-2xl'>Front-End Developer</h2>
                 <SocialMedia />
             </div>
-
-            <div className='flex-1'>
-                <div className='flex justify-center items-center'>
-                    <img className='w-[150px] h-[150px] object-cover rounded-full' src={HomeHeadshot} alt='jhg'>
-
-                    </img>
-                </div>
-
-            </div>
-
             <Footer />
         </div>
     )

@@ -1,4 +1,9 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { AiOutlineHtml5 } from 'react-icons/ai'
+import { DiCss3, DiJavascript1 } from 'react-icons/di'
+import { SiTailwindcss } from 'react-icons/si'
+import { FaReact } from 'react-icons/fa'
+
 
 export const links = [
     { name: 'Resume', to: '/resume' },
@@ -6,6 +11,16 @@ export const links = [
     { name: 'About Me', to: '/about-me' },
     { name: 'Home', to: '/home' },
 ];
+
+
+export const grid = [
+    {name: 'HTML', icon: AiOutlineHtml5 },
+    {name: 'CSS', icon: DiCss3 },
+    {name: 'JavaScript', icon: DiJavascript1 },
+    {name: 'React JS', icon: FaReact},
+    {name: 'Tailwind CSS', icon: SiTailwindcss },
+]
+
 
 export const SocialMedia = () => {
     return (

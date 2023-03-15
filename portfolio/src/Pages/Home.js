@@ -35,7 +35,7 @@ const Home = () => {
                 />
             </div>
 
-            <div className='absolute w-full flex flex-col items-center top-[420px] z-1 sm:top-[470px]'>
+            <div className='absolute w-full flex flex-col items-center top-[420px] z-1 sm:top-[520px]'>
                 <h2 className='text-[#141516] xl:text-3xl text-2xl'>Hi! My name is</h2>
                 <h1 className='xl:text-6xl text-4xl '>Nick DiBartolo</h1>
                 <h2 className='xl:text-3xl text-2xl'>Front-End Developer</h2>

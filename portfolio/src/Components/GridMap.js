@@ -3,16 +3,17 @@ import { grid } from '../assets/constants';
 
 const GridMap = () => {
     return (
-        <div>
+        <div className=''>
             {grid.map((gridbox) => (
-                <div
-                    className='mt-8 grid lg:grid-cols-5 gap-3 bg-white justify-center'
+                <div className='p-4 grid grid-cols-2'
                     key={gridbox.name}
                 >
-                    {gridbox.name}
-                    <gridbox.icon className="flex w-6 h-6 mr-2" />
-                </div>
+                    <div className='h-16 bg-white rounded-md'>
+                        {gridbox.name}
+                        <gridbox.icon className="flex flex-col justify-center w-6 h-6" />
+                    </div>
 
+                </div>
             ))}
 
         </div>

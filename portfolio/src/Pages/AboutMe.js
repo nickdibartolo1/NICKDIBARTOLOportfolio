@@ -1,26 +1,25 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import AboutIMG from '../assets/media/about.jpg';
-import GridMap from '../Components/GridMap';
+
 
 const AboutMe = () => {
   return (
     <div>
       <Navbar />
 
-      <section className='block bg-[#cfc9c9] w-full h-auto p-8'>
+      <header className='block bg-[#cfc9c9] w-full h-auto p-8'>
         <h1 className=' text-2xl'>About Me!</h1>
-      </section>
+      </header>
 
-      <div className='flex flex-col items-center h-screen w-full bg-gradient-to-r from-[#505a66] to-[#171b20]'>
-        <div className='bg-[#d1cccc] w-2/3 h-1/2 rounded-xl mt-9'>
-          <img className='h-[300px] rounded-tl-xl rounded-bl-xl ' src={AboutIMG} alt='about me'></img>
-
+      <main className='flex flex-col items-center h-screen w-full bg-gradient-to-r from-[#a6c7ee] to-[#5095f0]'>
+        <div className='flex-col text-center pl-[50px] pr-[50px] w-full sm:flex sm:items-center bg-[#ffffff] sm:w-2/3 pt-12 sm:pr-8 pb-12 sm:pl-6 h-1/2 rounded-xl mt-[100px]'>
+          <img className='mt-[-100px] mr-0 mb-[30px] ml-0 object-cover w-full h-[300px] shadow rounded-xl md:object-none' src={AboutIMG} alt='about me'></img>
+          <section className=''>
+            <p>fhfhjdfgjdfgjfjsfgjsfgj</p>
+          </section>
         </div>
-        <GridMap />
-
-      </div>
-
+      </main>
     </div>
   )
 }

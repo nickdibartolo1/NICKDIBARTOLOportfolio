@@ -28,6 +28,7 @@ export const data = [
       description:
         'An application designed for a company to be able to edit or update their employee database from adding an employee to changing their roles.',
       img: empCommand,
+      link:'https://github.com/nickdibartolo1/MovieListApp'
     },
     {
       id: uuidv4(),
@@ -35,6 +36,7 @@ export const data = [
       description:
         'An application designed to randomly generate a passowrd by the desired length and character types the user chooses.',
       img: passwordGen,
+      link:'https://github.com/nickdibartolo1/MovieListApp'
     },
     {
       id: uuidv4(),
@@ -42,5 +44,6 @@ export const data = [
       description:
         'An application that randomly generates inspirational quotes.',
       img: randomQuote,
+      link:'https://github.com/nickdibartolo1/MovieListApp'
     },
   ];

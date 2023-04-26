@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
-
 export const links = [
     { name: 'Resume', to: '/resume' },
     { name: 'Projects', to: '/projects' },

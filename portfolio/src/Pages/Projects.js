@@ -13,7 +13,6 @@ const Projects = (props) => {
 
       <div className='flex flex-col justify-center items-center'>
         {projects.map((project) => {
-          console.log(project);
           return (
             <ProjectsContent
               key={project.id}

@@ -11,6 +11,10 @@ const Projects = (props) => {
     <div>
       <Navbar />
 
+      <header className='block bg-[#cfc9c9] w-full h-auto p-8'>
+        <h1 className=' text-2xl'>Projects</h1>
+      </header>
+
       <div className='flex flex-col justify-center items-center'>
         {projects.map((project) => {
           return (

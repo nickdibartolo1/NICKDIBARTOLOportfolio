@@ -13,11 +13,17 @@ const AboutMe = () => {
       </header>
 
       <main className='flex flex-col items-center h-screen w-full bg-gradient-to-r from-[#a6c7ee] to-[#5095f0]'>
-        <div className='flex-col text-center pl-[50px] pr-[50px] w-full sm:flex sm:items-center bg-[#ffffff] sm:w-2/3 pt-12 sm:pr-8 pb-12 sm:pl-6 h-1/2 rounded-xl mt-[100px]'>
+        <div className='flex-col text-center pl-[50px] pr-[50px] w-full sm:flex sm:items-center bg-[#ffffff] sm:w-2/3 pt-12 sm:pr-8 pb-12 sm:pl-6 h-5/8 rounded-xl mt-[100px]'>
           <img className='mt-[-100px] mr-0 mb-[30px] ml-0 object-cover w-full h-[300px] shadow rounded-xl md:object-none' src={AboutIMG} alt='about me'></img>
-          <section className=''>
-            <p>fhfhjdfgjdfgjfjsfgjsfgj</p>
-          </section>
+
+          <p className='text-sm md:text-md'>I was born and raised in Northern New Jersey and got into coding,
+            web development, and the tech field late in college.
+            I was origianlly an Education major but deided to switch as I craved something more challenging.
+            I enrolled in a Web Development Bootcamp at Rutgers University
+            where I recieved a certification in Web Development. I am currently working an internship at Strategic Micro Systems,
+            an IT company in Parsippany, New Jersey.
+          </p>
+
         </div>
       </main>
     </div>

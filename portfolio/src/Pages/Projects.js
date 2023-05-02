@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
 import { data } from '../assets/projectsData';
+// import { links } from '../assets/projectsData';
 import ProjectsContent from './ProjectsContent';
 
 const Projects = (props) => {
@@ -23,7 +24,8 @@ const Projects = (props) => {
               name={project.name}
               description={project.description}
               img={project.img}
-              link={project.link}
+              label={project.label}
+              url={project.url}
             />
           )
         })}

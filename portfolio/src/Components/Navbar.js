@@ -21,7 +21,7 @@ const Navbar = () => {
           <HiOutlineMenu className="w-6 h-6 text-white mr-2" onClick={() => setSmScreenMenuOpen(true)} />}
       </div>
 
-      <div className={`bg-red-500 h-screen absolute w-2/3 z-10 p-4 md:hidden transition-all ease-in-out duration-200 ${smScreenMenuOpen ? 'left-0' : '-left-full'}`}>
+      <div className={`bg-blue-500 h-screen absolute w-2/3 z-10 p-4 md:hidden transition-all ease-in-out duration-200 ${smScreenMenuOpen ? 'left-0' : '-left-full'}`}>
         <NavbarLinks handleClick={() => setSmScreenMenuOpen(false)} />
       </div>
     </>

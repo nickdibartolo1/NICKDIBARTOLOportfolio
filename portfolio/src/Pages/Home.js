@@ -8,6 +8,9 @@ import HomeBG from '../assets/media/pexels-fauxels-3183198.jpg'
 import HomeHeadshot from '../assets/media/headshot.jpg'
 import Footer from '../Components/Footer';
 import { SocialMedia } from '../assets/constants';
+import ProjectsPiece from '../Components/ProjectsPiece';
+import AboutMePiece from '../Components/AboutMePiece';
+import ResumePiece from '../Components/ResumePiece';
 
 const Home = () => {
     return (
@@ -41,8 +44,15 @@ const Home = () => {
                 <h2 className='xl:text-3xl text-2xl'>Front-End Developer</h2>
                 <SocialMedia />
             </div>
-            <Footer />
+            <div>
+                <AboutMePiece/>
+                <ProjectsPiece/>
+                <ResumePiece/>
+                
+            </div>
+                <Footer />
         </div>
+
     )
 }
 

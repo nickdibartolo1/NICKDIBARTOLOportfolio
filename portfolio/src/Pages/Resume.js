@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
+import ResumePiece from '../Components/ResumePiece';
 
 const Resume = () => {
   return (
@@ -10,8 +11,7 @@ const Resume = () => {
         <h1 className=' text-2xl'>Resume</h1>
       </header>
 
-      <main className='flex flex-col items-center h-screen w-full bg-gradient-to-r from-[#a6c7ee] to-[#5095f0]'>
-      </main>
+      <ResumePiece/>
 
     </div>
   )

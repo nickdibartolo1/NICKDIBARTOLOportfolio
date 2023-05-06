@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { data } from '../assets/projectsData';
-import ProjectsContent from '../Pages/ProjectsContent';
+import ProjectMatter from '../Pages/ProjectMatter';
 
-const ProjectsPiece = (props) => {
+const ProjectsContent = (props) => {
 
   const [projects, setProjects] = useState(data)
 
@@ -17,7 +17,7 @@ const ProjectsPiece = (props) => {
       <div className='flex flex-col justify-center items-center text-center'>
         {projects.map((project) => {
           return (
-            <ProjectsContent
+            <ProjectMatter
               key={project.id}
               name={project.name}
               description={project.description}
@@ -35,4 +35,4 @@ const ProjectsPiece = (props) => {
   )
 }
 
-export default ProjectsPiece
+export default ProjectsContent

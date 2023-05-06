@@ -8,9 +8,9 @@ import HomeBG from '../assets/media/pexels-fauxels-3183198.jpg'
 import HomeHeadshot from '../assets/media/headshot.jpg'
 import Footer from '../Components/Footer';
 import { SocialMedia } from '../assets/constants';
-import ProjectsPiece from '../Components/ProjectsPiece';
-import AboutMePiece from '../Components/AboutMePiece';
-import ResumePiece from '../Components/ResumePiece';
+import AboutMeHomePage from '../Components/AboutMeHomePage';
+import ProjectsHomePage from '../Components/ProjectsHomePage';
+import ResumeHomePage from '../Components/ResumeHomePage';
 
 const Home = () => {
     return (
@@ -45,12 +45,12 @@ const Home = () => {
                 <SocialMedia />
             </div>
             <div>
-                <AboutMePiece/>
-                <ProjectsPiece/>
-                <ResumePiece/>
-                
+             <AboutMeHomePage/>
+             <ProjectsHomePage/>
+             <ResumeHomePage/>
+
             </div>
-                <Footer />
+            <Footer />
         </div>
 
     )

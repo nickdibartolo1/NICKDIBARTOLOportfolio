@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import ProjectsPiece from '../Components/ProjectsPiece';
+import ProjectsContent from '../Components/ProjectsContent';
 
 const Projects = (props) => {
 
@@ -10,7 +10,7 @@ const Projects = (props) => {
       <header className='block bg-[#cfc9c9] w-full h-auto p-8'>
         <h1 className=' text-2xl'>Projects</h1>
       </header>
-      <ProjectsPiece/>
+      <ProjectsContent />
     </div>
   )
 }

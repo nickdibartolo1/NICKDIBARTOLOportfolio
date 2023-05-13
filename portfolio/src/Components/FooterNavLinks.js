@@ -2,14 +2,14 @@ import React from 'react';
 import { links } from '../assets/constants';
 import { NavLink } from 'react-router-dom';
 
-const NavLinks = ({ handleClick }) => {
+const FooterNavLinks = ({ handleClick }) => {
     return (
-        <div>
+        <div className='flex justify-center'>
             {links.map((item) => (
                 <NavLink
                     key={item.name}
                     to={item.to}
-                    className="text-white mr-7 float-right text-lg hover:text-[#87aaca]"
+                    className="text-white mr-7 float text-sm hover:text-[#87aaca]"
                     onClick={() => handleClick && handleClick()}
                 >
                     {item.name}
@@ -20,4 +20,4 @@ const NavLinks = ({ handleClick }) => {
     )
 }
 
-export default NavLinks
+export default FooterNavLinks

@@ -4,8 +4,18 @@ import passwordGen from '../assets/projectsimg/passwordGen.png'
 import randomQuote from '../assets/projectsimg/randomQuote.png'
 import nflfanbase from '../assets/projectsimg/nflfanbaseimg.png'
 import movielistapp from '../assets/projectsimg/MovieListImg.png'
+import ndportimg from '../assets/projectsimg/Screenshot.png'
 
 export const data = [
+  {
+    id: uuidv4(),
+    name: "Nick's Portfolio",
+    description:
+      "An application displaying Nick's work as a Front End Developer along with his resume. ",
+    img: ndportimg,
+    label: 'https://github.com/nickdibartolo1/NICKDIBARTOLOportfolio',
+    url: 'https://github.com/nickdibartolo1/NICKDIBARTOLOportfolio'
+  },
   {
     id: uuidv4(),
     name: 'NFL-Fan-Base',
@@ -28,7 +38,7 @@ export const data = [
     id: uuidv4(),
     name: 'Employee Command-Line Editor',
     description:
-      'An application designed for a company to be able to edit or update their employee database from adding an employee to changing their roles.',
+      'An application designed for a company to be able to edit or update their employee database from adding an employee to changing the employee roles.',
     img: empCommand,
     label: 'https://github.com/nickdibartolo1/Employee-Command-Line',
     url: 'https://github.com/nickdibartolo1/Employee-Command-Line'

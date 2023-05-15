@@ -16,7 +16,7 @@ An application displaying Nick's work as a Front End Developer along with his re
   - React-dom
   - React-router
   - Tailwind Css
-  - Javascript
+  - JavaScript
   - HTML
   - AOS
   - uuid

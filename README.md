@@ -12,14 +12,14 @@ An application displaying Nick's work as a Front End Developer along with his re
   - [Heroku link](#heroku-link)
   - [Contributing](#contributing)
 ## Applications Used
-React.js
-React-dom
-React-router
-Tailwind Css
-Javascript
-HTML
-AOS
-uuid
+  - React.js
+  - React-dom
+  - React-router
+  - Tailwind Css
+  - Javascript
+  - HTML
+  - AOS
+  - uuid
 ## Heroku link
 
 ## Contributing

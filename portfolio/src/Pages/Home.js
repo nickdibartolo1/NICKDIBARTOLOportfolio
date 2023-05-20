@@ -11,11 +11,15 @@ import { SocialMedia } from '../assets/constants';
 import AboutMeHomePage from '../Components/AboutMeHomePage';
 import ProjectsHomePage from '../Components/ProjectsHomePage';
 import ResumeHomePage from '../Components/ResumeHomePage';
+import SideNavBar from '../Components/SideNavBar';
+
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
+            <Navbar/>
+            <SideNavBar/>
             <div>
                 <Routes>
                     <Route path="/home" element={<Home />} />
@@ -37,7 +41,6 @@ const Home = () => {
                     alt="headshot"
                 />
             </div>
-
             <div className='absolute w-full flex flex-col items-center top-[420px] z-1 sm:top-[520px]'>
                 <h2 className='text-[#141516] xl:text-3xl text-2xl'>Hi! My name is</h2>
                 <h1 className='xl:text-6xl text-4xl '>Nick DiBartolo</h1>
@@ -48,7 +51,6 @@ const Home = () => {
              <AboutMeHomePage/>
              <ProjectsHomePage/>
              <ResumeHomePage/>
-
             </div>
             <Footer />
         </div>

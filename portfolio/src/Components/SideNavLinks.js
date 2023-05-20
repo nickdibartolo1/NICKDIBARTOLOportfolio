@@ -1,23 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { links } from '../assets/constants';
 import { NavLink } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
 
-const NavLinks = ({ handleClick }) => {
-
-    const location = useLocation();
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [location])
-
-    return (
-        <div>
+const SideNavLinks = ({ handleClick }) => {
+  return (
+    <div className='flex flex-col my-4 ml-2'>
             {links.map((item) => (
                 <NavLink
                     key={item.name}
                     to={item.to}
-                    className="text-white mr-7 float-right text-lg hover:text-[#87aaca]"
+                    className="text-white mt-5 text-lg hover:text-[#87aaca]"
                     onClick={() => handleClick && handleClick()}
                 >
                     {item.name}
@@ -25,7 +17,7 @@ const NavLinks = ({ handleClick }) => {
             ))}
 
         </div>
-    )
+  )
 }
 
-export default NavLinks
+export default SideNavLinks

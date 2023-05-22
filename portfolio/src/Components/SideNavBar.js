@@ -4,11 +4,10 @@ import { HiOutlineMenu } from 'react-icons/hi';
 import SideNavLinks from './SideNavLinks';
 import { useNavigate } from 'react-router-dom';
 
-const SideNavBar = ({ history }) => {
+const SideNavBar = () => {
 
     const [smScreenMenuOpen, setSmScreenMenuOpen] = useState(false);
     const navigate = useNavigate();
-    // const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const handleNavigation = (e) => {
@@ -23,27 +22,13 @@ const SideNavBar = ({ history }) => {
         }
     }, [])
 
-    // useEffect(() => {
-    //     const storedSidebar = localStorage.getItem('smScreenMenuOpen');
-    //     setSmScreenMenuOpen(storedSidebar ? JSON.parse(storedSidebar) : false);
-    //     // setLoading(false);
-    // }, [])
-
-    // useEffect(() => { 
-    //     localStorage.setItem('smScreenMenuOpen', JSON.stringify(smScreenMenuOpen));
-    // },[smScreenMenuOpen]);
-
-    // if (loading) {
-    //     return null;
-    // }
-
     return (
         <div>
-            <div className='absolute md:hidden block top-6 right-3 cursor-pointer bg-black z-10'>
+            <div className='absolute md:hidden block top-6 right-3 cursor-pointer z-10'>
                 {smScreenMenuOpen ?
-                    (<RiCloseLine className="w-6 h-6 text-white mr-2" onClick={() => setSmScreenMenuOpen(false)} />)
+                    (<RiCloseLine className="w-6 h-6 text-black mr-2" onClick={() => setSmScreenMenuOpen(false)} />)
                     :
-                    <HiOutlineMenu className="w-6 h-6 text-white mr-2" onClick={() => setSmScreenMenuOpen(true)} />}
+                    <HiOutlineMenu className="w-6 h-6 text-black mr-2" onClick={() => setSmScreenMenuOpen(true)} />}
             </div>
 
             <div className={`bg-blue-500 h-5/6 absolute w-2/3 z-10 rounded-md md:hidden transition-all ease-in-out duration-200 ${smScreenMenuOpen ? 'left-0' : '-left-full'}`}>

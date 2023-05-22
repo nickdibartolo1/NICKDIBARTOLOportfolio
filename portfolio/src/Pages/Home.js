@@ -14,7 +14,6 @@ import ResumeHomePage from '../Components/ResumeHomePage';
 import SideNavBar from '../Components/SideNavBar';
 
 
-
 const Home = () => {
     return (
         <div>

@@ -6,8 +6,6 @@ import SideNavBar from '../Components/SideNavBar';
 
 
 const AboutMe = () => {
-
-
   return (
     <div>
       <Navbar />

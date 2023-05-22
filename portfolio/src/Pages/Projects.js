@@ -4,8 +4,7 @@ import ProjectsContent from '../Components/ProjectsContent';
 import Footer from '../Components/Footer';
 import SideNavBar from '../Components/SideNavBar';
 
-const Projects = (props) => {
-
+const Projects = () => {
   return (
     <div>
       <Navbar />

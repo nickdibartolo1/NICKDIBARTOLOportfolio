@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a90e93fa.css",
+    "main.js": "/static/js/main.076b15b4.js",
+    "static/media/Pexels-Videos-2278095.mp4": "/static/media/Pexels-Videos-2278095.17cf6613e577f40dfa5b.mp4",
+    "static/media/pexels-fauxels-3183198.jpg": "/static/media/pexels-fauxels-3183198.bdc466fb5b534464ab01.jpg",
+    "static/media/nflfanbaseimg.png": "/static/media/nflfanbaseimg.13ec5b796d88fe48c3e8.png",
+    "static/media/Screenshot.png": "/static/media/Screenshot.f0416bf2db3db8588034.png",
+    "static/media/MovieListImg.png": "/static/media/MovieListImg.e51efcf74f85868b5666.png",
+    "static/media/headshot.jpg": "/static/media/headshot.e021756e8b07d5cfaea7.jpg",
+    "static/media/about.jpg": "/static/media/about.e4b1ce483b604a594d83.jpg",
+    "static/media/passwordGen.png": "/static/media/passwordGen.c29d728cef0e2a51d707.png",
+    "static/media/empCommand.png": "/static/media/empCommand.b01fbd53d2cc6017f68c.png",
+    "static/media/randomQuote.png": "/static/media/randomQuote.022e194969f56cc73976.png",
+    "index.html": "/index.html",
+    "main.a90e93fa.css.map": "/static/css/main.a90e93fa.css.map",
+    "main.076b15b4.js.map": "/static/js/main.076b15b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a90e93fa.css",
+    "static/js/main.076b15b4.js"
+  ]
+}

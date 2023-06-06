@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NICKDIBARTOLOportfolio/static/css/main.a90e93fa.css",
-    "main.js": "/NICKDIBARTOLOportfolio/static/js/main.2a58be54.js",
+    "main.js": "/NICKDIBARTOLOportfolio/static/js/main.8cdae2d4.js",
     "static/media/Pexels-Videos-2278095.mp4": "/NICKDIBARTOLOportfolio/static/media/Pexels-Videos-2278095.17cf6613e577f40dfa5b.mp4",
     "static/media/pexels-fauxels-3183198.jpg": "/NICKDIBARTOLOportfolio/static/media/pexels-fauxels-3183198.bdc466fb5b534464ab01.jpg",
     "static/media/nflfanbaseimg.png": "/NICKDIBARTOLOportfolio/static/media/nflfanbaseimg.13ec5b796d88fe48c3e8.png",
@@ -14,10 +14,10 @@
     "static/media/randomQuote.png": "/NICKDIBARTOLOportfolio/static/media/randomQuote.022e194969f56cc73976.png",
     "index.html": "/NICKDIBARTOLOportfolio/index.html",
     "main.a90e93fa.css.map": "/NICKDIBARTOLOportfolio/static/css/main.a90e93fa.css.map",
-    "main.2a58be54.js.map": "/NICKDIBARTOLOportfolio/static/js/main.2a58be54.js.map"
+    "main.8cdae2d4.js.map": "/NICKDIBARTOLOportfolio/static/js/main.8cdae2d4.js.map"
   },
   "entrypoints": [
     "static/css/main.a90e93fa.css",
-    "static/js/main.2a58be54.js"
+    "static/js/main.8cdae2d4.js"
   ]
 }

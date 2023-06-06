@@ -4,7 +4,7 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Resume from './Resume';
 import Navbar from '../Components/Navbar';
-import HomeBG from '../assets/media/pexels-fauxels-3183198.jpg'
+import HomeBG from '../assets/media/bgimg.jpg'
 import HomeHeadshot from '../assets/media/headshot.jpg'
 import Footer from '../Components/Footer';
 import { SocialMedia } from '../assets/constants';

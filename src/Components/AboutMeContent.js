@@ -1,5 +1,6 @@
 import React from 'react';
-import AboutIMG from '../assets/media/about.jpg';
+// import AboutIMG from '../assets/media/about.jpg';
+import AboutIMG from '../assets/media/newAbout.png'
 
 
 const AboutMeContent = () => {
@@ -11,8 +12,8 @@ const AboutMeContent = () => {
                     <p className='text-sm md:text-md'>I was born and raised in Northern New Jersey and transitioned into coding,
                         web development, and the tech field later in college.
                         I was originally an Education major, but decided to switch as I craved something more challenging.
-                        I enrolled in a Web Development Bootcamp at Rutgers University
-                        where I recieved a certification in Web Development. I am currently working an internship at Strategic Micro Systems,
+                        I enrolled in a Full-Stack Web Development Bootcamp at Rutgers University
+                        where I recieved a certification in Full-Stack Web Development. I am currently working an internship as a Technician at Strategic Micro Systems,
                         an IT company in Parsippany, New Jersey.
                     </p>
                 </div>

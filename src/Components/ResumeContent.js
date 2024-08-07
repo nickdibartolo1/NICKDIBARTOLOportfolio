@@ -1,5 +1,5 @@
 import React from 'react';
-import PDF from "../assets/Nicholas_DiBartolo_Resume.pdf"
+import PDF from "../assets/NDRes.pdf"
 
 const ResumeContent = () => {
     return (
